@@ -1,0 +1,33 @@
+.app_logo {
+  background-color: #c00;
+  display: block;
+  margin: 0 auto;
+  max-width: 40%;
+  padding: 6px;
+}
+
+.app_header {
+  border-bottom: 1px solid #c7c7c7;
+  padding: 6px;
+}
+
+.app .story {
+  background-color: #ccc;
+  background-size: cover;
+  border-bottom: 1px solid #fff;
+  opacity: 0;
+  padding-bottom: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.app .story h2 {
+  color: #fff;
+  padding: 40px 10px 10px 10px;
+  background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.6) 25%,rgba(0,0,0,0.6) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+}
